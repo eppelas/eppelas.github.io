@@ -1,0 +1,370 @@
+
+
+/**************
+Grid
+**************/
+
+
+
+
+/*************************
+Main Page
+**************************/
+
+/* main image block */
+
+.menu {
+	font-family: input-sans, sans-serif;
+    font-weight: 400;
+	font-size: 14px;
+	line-height: 42px;
+	
+	text-align: right;
+    margin-top: 20px;
+	margin-right: 5%;	
+}
+
+li {
+		display: inline;
+		padding-left: 20px;
+}
+
+
+a {
+	color: inherit;
+	text-decoration: none;
+}
+
+.menu a {
+	color: #fff;
+}
+.menu a:active {
+	color: #F4511E;
+}
+.menu a:hover {
+	text-decoration: none;
+	color: #F4511E;
+}
+
+
+
+
+
+
+#company_pres {
+	font-family: input-sans, sans-serif;
+    font-weight: 400;
+	font-size: 16px;
+	line-height: 42px;
+	color: #fff;
+	text-align: right;
+	margin-top: 30%;
+	margin-right: 5%;
+}
+
+h1 {
+	font-size: 72px;
+	color: #071B35;
+	text-align: center;
+	font-family: input-sans, sans-serif;
+    font-weight: 500;
+	/*line-height: 42px;*/	
+}
+
+#company_pres h1 {
+	color: #fff;
+	text-align: right;
+}
+
+
+/*main description text*/
+
+#main_description_text {
+	font-family: univia-pro, sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 35px;
+	line-height: 50px;
+	padding: 230px 5% 220px 5%;
+	vertical-align: center;
+
+}
+
+
+/* Projects names and description styles */
+
+.side_links {
+	padding: 250px 0 220px 3%;
+	background-color: #D8D8D8;
+}
+
+.secondary_text_name {
+	font-family: univia-pro, sans-serif;
+	font-weight: 600;
+	font-style: normal;
+	font-size: 17px;
+	margin: 0;
+	padding-left: 10%;
+	
+}
+
+.secondary_text_description {
+	font-family: univia-pro, sans-serif;
+	font-weight: 300;
+	font-style: normal;
+	font-size: 16px;
+	margin: 2px 0 43px 0;
+	line-height: 23px;
+	padding-right: 8%;
+	padding-left: 10%;
+}
+
+
+
+/* Blocks style */
+
+img {
+width: 100%;
+
+}
+
+.block_description_name{
+	font-family: input-sans, sans-serif;
+	font-weight: 500;
+	font-style: normal;
+	font-size: 18px;
+	margin: 0;
+	line-height: 26px;
+	padding-bottom: 20px;
+	padding-left: 10%;
+}
+
+
+.block_text {
+	padding-top: 58px; 
+/*	padding-left: 10%;*/
+	
+}
+
+.block_whole {
+background-color: #E3E3E3;
+}
+
+
+
+.secondary_text_h3 {
+	font-size: 20px;
+	line-height: 27px;
+}
+
+
+
+/* Second block style */
+
+.block_two {
+	padding-top: 120px;
+
+}
+
+.block_two .secondary_text_description  {
+padding-bottom: 120px;
+}
+
+
+.two_columns_percentage{
+margin-left: -10%;	
+}
+
+
+/*Last grid block */
+
+
+.block_grid h1 {
+	color: #fff;
+	padding-top: 2%;
+	padding-bottom: 3%;
+}
+
+
+.img_gridrow2 {
+	padding-bottom: 180px;
+}
+
+
+
+
+
+/*Footer*/
+
+.footer {
+	font-family: univia-pro, sans-serif;
+	font-weight: 300;
+	font-style: normal;
+	font-size: 16px;
+	padding: 60px 0;
+	line-height: 20px;
+	text-align: center;
+}
+
+
+
+
+
+
+
+/*************************
+Our Projects Page
+**************************/
+
+
+.menu_whitebkg a {
+	color: #071B35;
+}
+
+
+
+.block_two_projects  {
+
+
+}
+
+.small_project_block {
+padding: 30px 20px;
+
+}
+
+.small_project_block .block_text {
+	background-color: #E3E3E3;
+	padding-bottom: 120px;
+}
+
+
+
+
+/*************************
+About Us Page
+**************************/
+
+.team_photo {
+	margin-bottom: 40px;
+}
+
+
+
+
+
+/*Modals*/
+
+
+/*Carousel*/
+.carousel-inner img {
+	max-height: 200px;
+	max-width: 100%;
+	object-fit: cover;
+	margin-bottom: 30px;
+	margin-left: 40px;
+}
+
+.carousel-control {
+	position: absolute;
+	top: -20%;
+	color: #000;
+	font-size: 25px !important;
+	padding-left: 10px;
+	margin-left: 40px;
+	margin-right: 40px;
+}
+
+.glyphicon-chevron-left {
+	font-size: 25px !important;
+/*	margin-left: 40px;*/
+}
+
+.glyphicon-chevron-right {
+	font-size: 25px !important;
+
+}
+
+.carousel-control:hover {
+	color: #000;
+}
+
+
+/*.modal-dialog-xl {
+	max-width: auto;
+	margin: 1.75rem 4rem !important;
+}*/
+
+.modal-dialog {
+	width: auto;
+	max-width: 2000px;
+	margin: 1.75rem 5rem !important;
+}
+
+
+.modal-header {
+	border: none;
+}
+
+.modal-footer {
+	border: none;
+}
+
+
+/************
+Table Style
+************/
+
+.table, td, tr, th {
+	font-family: univia-pro, sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 15px;
+	line-height: 18px;
+/*	border-top: 1px solid #AF0205 !important;*/
+}
+
+.table th {
+	font-weight: 500;
+	color: #AF0205;
+	/*text-align: right;*/
+}
+
+
+
+
+
+
+
+
+
+/************
+Responsive
+************/
+
+
+@media only screen and (max-width: 600px) {
+  .two_columns_percentage {
+        margin-left: 0;
+  }
+  .col-md-8 {
+  	padding-left: 0;
+  }
+
+ h1 {
+ 	margin: 15px 5px 30px 5px !important;
+ 	font-size: 60px;
+ 	line-height: 58px;
+ } 
+
+.small_project_block {
+	padding: 30px 0px;
+} 
+
+.modal-dialog {
+	margin: 0 !important;
+}
+.team_img {
+	padding-bottom: 20px !important;
+}
+}
