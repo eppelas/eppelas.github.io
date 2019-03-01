@@ -162,12 +162,12 @@ background-color: #E3E3E3;
 /* Second block style */
 
 .block_two {
-	padding-top: 120px;
+	padding-top: 90px;
 
 }
 
 .block_two .secondary_text_description  {
-padding-bottom: 120px;
+padding-bottom: 90px;
 }
 
 
@@ -181,13 +181,13 @@ margin-left: -10%;
 
 .block_grid h1 {
 	color: #fff;
-	padding-top: 2%;
-	padding-bottom: 3%;
+	padding-top: 5%;
+	padding-bottom: 4%;
 }
 
 
 .img_gridrow2 {
-	padding-bottom: 180px;
+	padding-bottom: 120px;
 }
 
 
@@ -229,13 +229,13 @@ Our Projects Page
 }
 
 .small_project_block {
-padding: 30px 20px;
+padding: 90px 20px;
 
 }
 
 .small_project_block .block_text {
 	background-color: #E3E3E3;
-	padding-bottom: 120px;
+	padding-bottom: 60px;
 }
 
 
@@ -245,50 +245,62 @@ padding: 30px 20px;
 About Us Page
 **************************/
 
-.team_photo {
-	margin-bottom: 40px;
+.team_img {
+	margin-bottom: 90px;
+	padding-right: 20px;
+	
+}
+
+.team_text {
+    margin-left: -6.5%;
 }
 
 
 
 
-
-/*Modals*/
+/*****************
+Modals
+*****************/
 
 
 /*Carousel*/
 .carousel-inner img {
 	max-height: 200px;
-	max-width: 100%;
+	width: 100%;
 	object-fit: cover;
-	margin-bottom: 30px;
-	margin-left: 40px;
 }
 
 .carousel-control {
 	position: absolute;
 	top: -20%;
-	color: #000;
+	color: #000 !important;
 	font-size: 25px !important;
 	padding-left: 10px;
 	margin-left: 40px;
 	margin-right: 40px;
+
 }
 
 .glyphicon-chevron-left {
 	font-size: 25px !important;
+	top: 55% !important;
 /*	margin-left: 40px;*/
 }
 
 .glyphicon-chevron-right {
 	font-size: 25px !important;
+	top: 57% !important;
 
 }
 
 .carousel-control:hover {
-	color: #000;
+	color: #000 !important;
 }
 
+
+.carousel_padding {
+ 	margin-bottom: 4%;	
+}
 
 /*.modal-dialog-xl {
 	max-width: auto;
